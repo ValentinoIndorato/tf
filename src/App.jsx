@@ -10,6 +10,7 @@ import SwarmPlot from './component/SwarmPlot'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Pagina1 from './component/Pagnina1'
 import PrimerTp from './PrimerTp'
+import P1Circulo from './component/P1Cirulo'
 function App() {
   
   const [Data, setData] =useState(data)
@@ -23,14 +24,27 @@ function App() {
   useEffect(()=>{setCount( Data.length),[]})
 
     const router = createBrowserRouter([
-        {
+      {
+        path: "/TpCompleto",
+        element: < PrimerTp/>,
+    },
+    {
             path: "/pag",
             element: < Pagina1/>,
         },
         {
-          path: "/TpCompleto",
-          element: < PrimerTp/>,
-      }
+          path: "/pag1",
+          element: < Pagina1 pag1={true}/>,
+      },
+      {
+        path: "/p1Circulo",
+        element: < P1Circulo />,
+    },
+    {
+      path: "/p2Circulo",
+      element: < P1Circulo circulo2={true} />,
+  },
+      
        
       ])
   return (

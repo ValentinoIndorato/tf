@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #ffffffde;
   background-color: #242424;
 
   font-synthesis: none;
@@ -87,4 +87,101 @@ div{
   position: absolute;
   top: 0;
   right: 0;
+}
+.Chord{
+  width: 50rem;
+  height: 50rem;
+  background-color: #213547;
+  border-radius: 100%;
+}
+.Chord:hover{
+  background-color: inherit;
+
+ 
+}
+
+.Chords{
+  width: 25rem;
+  height: 25rem;  
+  
+}
+/*--------*/
+#g10739-0-3-5-9-031-6-0-67-2-4-6:hover{
+  fill:#f5f507
+  }
+  #svg9:hover{fill: rgb(1, 136, 255);
+      stroke: #f5f507;}
+      .amarillo{
+          fill: rgb(200, 255, 1)
+      }
+      .amarilloOscuro{
+          fill: rgb(78, 97, 12)
+
+      }
+      .amarilloOscuro:hover{
+          fill: red;
+      }
+      
+      .rojo{
+          fill: red;
+          transition: 0.3s;
+
+      }
+      .rojo:hover{
+          fill: rgb(255, 136, 0);
+          
+      }
+     
+      .negro{
+          fill: black;
+          transition: 0.2s;
+          
+         
+      }
+      .negro:hover{
+          fill: rgb(98, 116, 100);
+         
+      }
+      
+      .negro:nth-child(4n):hover{
+          fill: #0eff2a;
+          
+      }
+      #svg10{
+          transform: rotate(90deg);
+      }
+/*--------------------------*/
+.sectionSvg{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: -1;
+top: 0;
+
+}
+.sectionSvg svg{
+  width: 25rem;
+}
+.a{ fill: #fff;}
+.b{ fill: #fff;}
+.c{ fill: #fff;}
+.d{ fill: #fff;}
+.e{ fill: #fff;}
+.f{ fill: #fff;}
+.g{ fill: #fff;}
+.h{ fill: #fff;}
+.i{
+  fill: #f47560;
+}
+.j{
+  fill: #e8a838;
+}
+.k{
+  fill: #61cdbb;
+}
+.l{
+  fill:#e8c1a0
+}
+.m{
+  fill: #f1e15b;
 }

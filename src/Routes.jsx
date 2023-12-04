@@ -6,7 +6,8 @@ function Routes (){
         {
             path: "/pag",
             element: < Pagina1/>,
-        }
+        },
+        
        
       ])
 return <RouterProvider router={router} />
