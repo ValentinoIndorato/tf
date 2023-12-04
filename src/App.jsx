@@ -7,7 +7,9 @@ import data from "./assets/data.json"
 import data2 from "./assets/dataCopy.json"
 import dataSwarnPlot from "./assets/swarmPlot.json"
 import SwarmPlot from './component/SwarmPlot'
-
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Pagina1 from './component/Pagnina1'
+import PrimerTp from './PrimerTp'
 function App() {
   
   const [Data, setData] =useState(data)
@@ -19,16 +21,21 @@ function App() {
   }
   const [count, setCount] = useState(0)
   useEffect(()=>{setCount( Data.length),[]})
- 
+
+    const router = createBrowserRouter([
+        {
+            path: "/pag",
+            element: < Pagina1/>,
+        },
+        {
+          path: "/TpCompleto",
+          element: < PrimerTp/>,
+      }
+       
+      ])
   return (
     <>  
-      
-      
-        {count==0 ? <div className='Swarm'> <SwarmPlot data={dataSwarnPlot}/>  </div>: <> <div className='graf'> <Grafico  Data={Data} handlerdata={handlerdata} /> </div></> }
-      
-      
-      
-      
+       <RouterProvider router={router} />            
     </>
   )
 }
