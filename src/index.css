@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
+  
 }
 
 a {
@@ -184,4 +185,23 @@ top: 0;
 }
 .m{
   fill: #f1e15b;
+}
+.section_paginaPrincipal{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main_paginaPrincipal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.section_paginaPrincipal p{
+  width: 30rem;
+}
+span{
+  font-weight: 700;
 }

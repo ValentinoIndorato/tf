@@ -11,6 +11,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Pagina1 from './component/Pagnina1'
 import PrimerTp from './PrimerTp'
 import P1Circulo from './component/P1Cirulo'
+import Inicio from './Inicio'
 function App() {
   
   const [Data, setData] =useState(data)
@@ -44,6 +45,10 @@ function App() {
       path: "/p2Circulo",
       element: < P1Circulo circulo2={true} />,
   },
+  {
+    path: "/",
+    element: < Inicio  />,
+},
       
        
       ])
