@@ -46,6 +46,9 @@ function P1Circulo({circulo2}) {
             precision: 0.01,
             velocity: 0,
           }}
+          arcTooltip={() => {
+            false;
+          }}
           ribbonTooltip={() => {
             false;
           }}
