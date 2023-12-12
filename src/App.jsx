@@ -12,6 +12,7 @@ import Pagina1 from './component/Pagnina1'
 import PrimerTp from './PrimerTp'
 import P1Circulo from './component/P1Cirulo'
 import Inicio from './Inicio'
+import Matias from './component/Matias'
 function App() {
   
   const [Data, setData] =useState(data)
@@ -48,6 +49,10 @@ function App() {
   {
     path: "/",
     element: < Inicio  />,
+},
+{
+  path: "/matias",
+  element: < Matias  />,
 },
       
        
