@@ -1,4 +1,9 @@
+//import { SwarmPlot } from "@nivo/swarmplot";
 import { useNavigate } from "react-router-dom";
+import dataSwarnPlot from "./assets/As.json"
+import AS from "./AS";
+import SwarmPlot from './component/SwarmPlot'
+import dataSwarnPlot2 from "./assets/swarmPlot.json"
 
 function Inicio() {
   const Navigate = useNavigate();
@@ -51,8 +56,11 @@ function Inicio() {
             <hr />
           </p>
         </section>
+      {/*  <div className='Swarm'> <SwarmPlot data={dataSwarnPlot2}/>  </div>
+        <section className='AS'> <AS data={dataSwarnPlot}/> </section>*/}
       </main>
     </>
   );
 }
 export default Inicio;
+//Swarm
