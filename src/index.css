@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -111,6 +111,8 @@ div{
   
 }
 /*--------*/
+
+
 #g10739-0-3-5-9-031-6-0-67-2-4-6:hover{
   fill:#f5f507
   }
@@ -208,4 +210,9 @@ top: 0;
 }
 span{
   font-weight: 700;
+}
+.AS{
+  background-color: #0eff2a;
+  width: 500rem;
+  height: 500rem;
 }
