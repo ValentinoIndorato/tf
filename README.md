@@ -1,8 +1,9 @@
-# React + Vite
+# Tesis Licenciatura en artes
+Primeros trabajos para la tesis, en los que se hace hincapié en la interacción del usuario con distintos elementos a través de acciones (eventos de JavaScript). Se plantean tanto formas y gráficos propios como de terceros (librería [nivo](https://nivo.rocks/) ). 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías y otros
+- React Js
+- Vite
+- Babel
+- [nivo](https://nivo.rocks/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
